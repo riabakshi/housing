@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Analyzer
+comment0.text=\r\n\ This\ Analyzer\ class\ initalizes\ the\ process\ of\ sorting.\ \r\n\ It\ first\ reads\ student\ data\ from\ the\ preferences.txt\ file\r\n\ and\ creates\ associated\ halls.\ \r\n\ It\ then\ sorts\ students\ into\ halls,\ \r\n\ which\ are\ then\ sorted\ into\ wings\ (Halls\ class),\ \r\n\ which\ are\ then\ sorted\ into\ rooms\ (Wings\ clas).\ \r\n\r\n\ @author\ Ria\ Bakshi\r\n\ @version\ 12/14/24\r\n
+comment1.params=
+comment1.target=Analyzer()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Analyzer\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ Main\ method\ of\ this\ analyzer.\ This\ runs\ the\ analyzer\ method,\r\n\ which\ sorts\ students\ into\ rooms.\ Then,\ it\ prints\ the\ resulting\ rooming\r\n\ assigments.\ \r\n
+comment3.params=
+comment3.target=void\ printRoomAssignments()
+comment3.text=\r\n\ Print\ the\ resulting\ room\ assignments\ to\ a\ text\ file.\r\n\ This\ is\ intended\ to\ be\ called\ after\ rooms\ have\ been\ sorted.\r\n
+comment4.params=
+comment4.target=void\ printStatistics()
+comment4.text=\r\n\ Print\ ranking\ statistics\ to\ a\ file.\r\n\ @param\ header\ The\ header\ to\ print\ above\ the\ list\ of\ statistics\r\n\ @param\ array\ The\ array\ of\ statistics\ to\ print\r\n
+comment5.params=
+comment5.target=void\ sortIntoHall()
+comment5.text=\r\n\ Sort\ students\ into\ halls.\ Students\ are\ guaranteed\ to\ get\ into\ their\ top\ three\ halls.\r\n\ This\ works\ by\ randomizing\ the\ order\ in\ which\ people\ are\ doled\ out\ their\ preferences.\ \r\n\ Students\ are\ placed\ into\ their\ top\ three\ halls.\ However,\ if\ they\ are\ unable\ to\ \r\n\ get\ these,\ they\ are\ sorted\ into\ an\ unranked\ array\ list.\ \r\n\ People\ in\ the\ unranked\ array\ list\ are\ then\ prioritized\ to\ enter\ their\ top\ three\ halls.\ \r\n\ This\ method\ removes\ people\ who\ got\ their\ first\ hall\ choice\ and\ moves\ them\ to\ their\ second\ or\ third\ hall\ choice.\ \r\n\ It\ then\ prints\ statistic\ results\ to\ a\ stats\ file.\ \r\n
+comment6.params=
+comment6.target=void\ populate()
+comment6.text=\r\n\ Populate\ the\ ArrayList\ with\ student\ info\ from\ the\ preferences.txt\ file.\r\n
+comment7.params=
+comment7.target=void\ randomInfo()
+comment7.text=\r\n\ Write\ random\ information\ to\ the\ preferences.txt\ data\ file.\ \r\n\ This\ was\ only\ called\ to\ create\ random\ preference\ data.\r\n\ TODO\ Update\ check\ eligibility\ methods\ to\ reflect\ different\ number\ of\ people\ in\ each\ grade.\ \r\n
+numComments=8

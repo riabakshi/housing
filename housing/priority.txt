@@ -1,0 +1,3 @@
+RSLs, HCPs, DPCs
+student1, student2	gender	grade	hall	wing	extra preferences
+

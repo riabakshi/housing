@@ -1,0 +1,42 @@
+Those who got their desired rankings: 
+263 people got their first hall choice.
+63 people got their second hall choice.
+9 people got their third hall choice.
+0 people got their fourth hall choice.
+0 people got their fifth hall choice.
+
+Hall	Wing	Gender	Amount of People in Wing
+01	A	AFAB	12
+01	B	AFAB	12
+01	C	AMAB	12
+01	D	AMAB	12
+
+02	A	AFAB	12
+02	B	AFAB	12
+02	C	AFAB	12
+02	D	AFAB	12
+
+03	A	AFAB	12
+03	B	AFAB	12
+03	C	AMAB	12
+03	D	AMAB	12
+
+04	A	AMAB	12
+04	B	AMAB	12
+04	C	AMAB	12
+04	D	AMAB	12
+
+05	A	AMAB	12
+05	B	AMAB	12
+05	C	AMAB	12
+05	D	AMAB	12
+
+06	A	AFAB	12
+06	B	AFAB	12
+06	C	AFAB	12
+06	D	AFAB	9
+
+07	A	AFAB	12
+07	B	AFAB	12
+07	C	AMAB	12
+07	D	AMAB	12
