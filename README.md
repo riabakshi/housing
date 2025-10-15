@@ -7,3 +7,5 @@ This project was inspired by the idea of automating a process that is currently 
 
 # Quick Start
 Run the main function from the Analyzer class. The terminal should print some information about where housing assignments and statistics about housing assigmments were printed. 
+
+See housing/README.txt for more information. 
